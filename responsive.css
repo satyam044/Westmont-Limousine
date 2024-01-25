@@ -1,0 +1,265 @@
+@media screen and (max-width:1000px) {
+    .hiwimg {
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 4rem;
+        margin-right: 1rem;
+
+    }
+
+    .txt1,
+    .txt2,
+    .txt3,
+    .txt4 {
+        text-align: center;
+    }
+
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .contact .left {
+        width: 100%;
+    }
+
+    .contact .left h5 {
+        font-size: 2rem;
+        width: 100%;
+
+    }
+
+    .contact .left p {
+        width: 70%;
+    }
+
+    .cntf {
+        margin: 0;
+        height: auto;
+    }
+
+    .cntf button {
+        height: 2rem;
+    }
+
+    .qst {
+        margin-top: 3rem;
+    }
+
+    section1 {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    section1 .left1 {
+        align-items: center;
+        margin: 0;
+    }
+
+    section1 .left1 h5 {
+        text-align: center;
+    }
+
+    section1 .left1 p {
+        width: 90vw;
+        padding: 0%;
+        text-align: center;
+    }
+
+    section1 img {
+        width: 80vw;
+        margin-bottom: 4vh;
+        height: auto;
+    }
+
+    section1 .right1 {
+        justify-content: center;
+        margin-right: 0rem;
+    }
+
+    section2 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    section2 img {
+        width: 80vw;
+        margin-bottom: 4vh;
+        height: auto;
+    }
+
+    section2 .left2 {
+        justify-content: center;
+        margin: 0;
+        display: flex;
+    }
+
+    section2 .right2 {
+        align-items: center;
+        margin: 0;
+    }
+
+    section2 .right2 p {
+        width: 90vw;
+        padding: 0%;
+    }
+
+    section3 {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        overflow: hidden;
+    }
+
+    section3 .left3 {
+        align-items: center;
+        margin: 0;
+    }
+
+    section3 .left3 h5 {
+        text-align: center;
+    }
+
+    section3 .left3 p {
+        width: 90vw;
+        padding: 0%;
+        text-align: center;
+    }
+
+    section3 img {
+        width: 80vw;
+        margin-bottom: 4vh;
+        height: auto;
+    }
+
+    section3 .right3 {
+        justify-content: center;
+        margin-right: 0rem;
+    }
+
+
+    section4 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    section4 img {
+        width: 80vw;
+        margin-bottom: 4vh;
+        height: auto;
+    }
+
+    section4 .left4 {
+        justify-content: center;
+        margin: 0;
+    }
+
+    section4 .right4 {
+        align-items: center;
+        margin: 0;
+    }
+
+    section4 .right4 p {
+        width: 90vw;
+        padding: 0%;
+    }
+
+    .callnow {
+        font-size: 5vw;
+    }
+
+    .location {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 15vh;
+    }
+
+    .location p1 {
+        margin-bottom: 2vh;
+    }
+
+    .location i {
+        display: flex;
+        margin-left: -20rem;
+        position: absolute;
+        margin-top: -3rem;
+    }
+
+    .location i2 {
+        display: flex;
+        margin-left: -10rem;
+        position: absolute;
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .navbar .logo img {
+        width: 7rem;
+    }
+
+    .navbar .ctf {
+        display: block;
+    }
+
+    .navbar h5 {
+        display: none;
+    }
+
+    .hbtn button,
+    a {
+        margin-right: 6vw;
+    }
+
+    .navbar .ctf button {
+        padding: 0;
+    }
+
+    .home {
+        height: 35vh;
+    }
+
+    .home img {
+        height: 35vh;
+        width: 100%;
+    }
+
+    .hiwimg {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact .left {
+        left: 4vw;
+    }
+
+    .contact .left h5 {
+        text-align: center;
+        width: 95%;
+    }
+
+    .contact .left p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .cntf {
+        width: 75vw;
+        height: auto;
+    }
+
+
+}

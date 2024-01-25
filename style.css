@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    scroll-behavior: smooth;
+    height: auto;
+}
+
+h5 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 12rem;
+}
+
+.navbar .ctf {
+    display: flex;
+}
+
+.navbar h5 {
+    position: relative;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+
+.navbar .ctf button {
+    border-radius: 70px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.2rem 1.4rem;
+    align-items: center;
+    display: flex;
+    border: none;
+    justify-content: center;
+}
+
+.navbar .ctf .nvbn {
+    border: 2px solid white;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.home img {
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.hiw {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.hiwimg {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 6rem;
+    flex-wrap: wrap;
+}
+
+.hiwimg img {
+    width: 7rem;
+}
+
+.txt1,
+.txt2,
+.txt3,
+.txt4 {
+    padding: 1rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.hbtn button {
+    border: 2px solid black;
+}
+
+.hbtn button,
+a {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 70px;
+    padding: 0.2rem 1.4rem;
+    margin: 0 2rem;
+    align-items: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.contact .left {
+    position: relative;
+    left: 4rem;
+    width: 40vw;
+    padding: 4rem;
+}
+
+.contact .left h5 {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.contact .left p {
+    margin-top: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-right: 1rem;
+
+}
+
+.cntf {
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 80vh;
+    padding: 0.8rem 1rem;
+    border: 2px solid black;
+    font-size: 1.5rem;
+}
+
+.cntf .form-group {
+    height: 100%;
+}
+
+.cntf form input {
+    width: 97%;
+    height: 2rem;
+    border: 2px solid rgb(229, 229, 229);
+    padding-left: 10px;
+}
+
+.cntf textarea {
+    height: 4rem;
+    width: 97%;
+    border: 2px solid rgb(229, 229, 229);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#message {
+    min-height: 3rem;
+    height: auto;
+}
+
+.cntf h5 {
+    font-weight: 100;
+    margin: 0.5rem 0;
+}
+
+.cntf button {
+    border: none;
+    color: aliceblue;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(211, 144, 41);
+    height:2rem;
+    width: 100%;
+}
+
+.qst {
+    width: 70vw;
+}
+
+.qst a {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    background-color: white;
+    width: 87vw;
+    margin-right: 0;
+    padding: 0;
+    color: black;
+}
+
+.qst a:hover {
+    cursor: arrow;
+}
+
+section1 {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 5vh;
+    height: auto;
+
+}
+
+section1 .left1 {
+    display: flex;
+    flex-direction: column;
+    width: 130vw;
+    justify-content: left;
+    margin-left: 4rem;
+}
+
+section1 .left1 h5 {
+    font-size: 2rem;
+
+}
+
+section1 .left1 p {
+    margin-top: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+section1 .right1 {
+    display: flex;
+    width: 100vw;
+    justify-content: right;
+    margin-right: 4rem;
+}
+
+section1 img {
+    width: 25rem;
+    height: 19rem;
+    background-size: cover;
+    background-position: center;
+}
+
+section2 {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+    margin-bottom: 5vh;
+    height: auto;
+}
+
+section2 .left1 {
+    display: flex;
+    width: 100vw;
+    margin-left: 4rem;
+}
+
+section2 .left2 {
+    margin-left: 4rem;
+    width: 100vw;
+}
+
+section2 .right2 h5 {
+    font-size: 2rem;
+
+}
+
+section2 .right2 p {
+    margin-top: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-right: 2rem;
+
+}
+
+section2 .right2 {
+    display: flex;
+    flex-direction: column;
+    width: 130vw;
+    margin-right: 4rem;
+}
+
+section2 img {
+    width: 25rem;
+    height: 19rem;
+    background-size: cover;
+    background-position: center;
+}
+
+section3 {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 5vh;
+    height: auto;
+
+}
+
+section3 .left3 {
+    display: flex;
+    flex-direction: column;
+    width: 130vw;
+    justify-content: left;
+    margin-left: 4rem;
+}
+
+section3 .left3 h5 {
+    font-size: 2rem;
+
+}
+
+section3 .left3 p {
+    margin-top: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+section3 .right3 {
+    display: flex;
+    width: 100vw;
+    justify-content: right;
+    margin-right: 4rem;
+}
+
+section3 img {
+    width: 25rem;
+    height: 19rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+section4 {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 20vh;
+}
+
+section4 .left4 {
+    display: flex;
+    width: 100vw;
+    margin-left: 4rem;
+}
+
+section4 .left4 {
+    margin-left: 4rem;
+    width: 100vw;
+}
+
+section4 .right4 h5 {
+    font-size: 2rem;
+
+}
+
+section4 .right4 p {
+    margin-top: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-right: 2rem;
+
+}
+
+section4 .right4 {
+    display: flex;
+    flex-direction: column;
+    width: 130vw;
+    margin-right: 4rem;
+}
+
+section4 img {
+    width: 25rem;
+    height: 19rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.callnow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.callnow p {
+    margin-bottom: 1.2rem;
+    border-top: 3px solid black;
+    width: 40%;
+}
+
+.callnow p2 {
+    margin-top: 1.2rem;
+    border-bottom: 3px solid black;
+    width: 40%;
+}
+
+.callnow a {
+    background-color: white;
+    color: black;
+    font-size: 4vw;
+    color: rgb(211, 144, 41);
+}
+
+.location {
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    font-size: 1rem;
+}
+
+.location i {
+    margin-left: 10rem;
+    font-size: 1.6rem;
+    margin-top: -0.3rem;
+    margin-right: 1rem;
+}
+
+.location i2 {
+    margin-left: 15rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+}
+
+.location a {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding: 0 2rem;
+    background-color: black;
+    height: 4rem;
+    color: aliceblue;
+    font-family: 'Mukta';
+    text-align: center;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
