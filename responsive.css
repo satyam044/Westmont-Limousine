@@ -1,4 +1,13 @@
 @media screen and (max-width:1000px) {
+     .home {
+        height: 35vh;
+     }
+
+    .home img {
+        height: 35vh;
+        width: 100%;
+    }
+    
     .hiwimg {
         width: 85%;
         display: flex;
@@ -226,15 +235,6 @@
 
     .navbar .ctf button {
         padding: 0;
-    }
-
-    .home {
-        height: 35vh;
-    }
-
-    .home img {
-        height: 35vh;
-        width: 100%;
     }
 
     .hiwimg {
